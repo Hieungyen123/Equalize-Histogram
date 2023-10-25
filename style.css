@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.all {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+img,
+canvas {
+    width: auto;
+    height: auto;
+    margin: 30px;
+    max-width: 300px;
+    max-height: 250px;
+    /* border: 1px solid black; */
+}
+
+.flex {
+    gap: 100px;
+    display: flex;
+}
+
+input {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.all2 {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.all3 {
+    margin-top: 50px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all3 img {
+    cursor: pointer;
+    margin: 0;
+}
+
+.all4 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+h4 {
+    border-bottom: 1px solid;
+}
+
+.output,
+.input {
+
+    width: 80%;
+}
+
+.output-out,
+.input-out {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.caption,
+button {
+    margin-left: 40px;
+}

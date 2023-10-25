@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="all">
+        <h2>Histograms Equalization with OpenCV</h2>
+        <!-- <p id="status">loading...</p> -->
+        <div class="flex">
+            <div class="all2">
+                <div class="input">
+                    <div class="caption"> Upload your Image
+                        <input type="file" id="fileInput" />
+                    </div>
+                    <input id="pi_input" type="range" min="1" max="256" value="256" />
+                    <p>histSize: <output id="value"></output></p>
+                    <div class="input-out">
+                        <img id="imageSrc" alt="    original image" class="mainImage" />
+                        <canvas id="canvasOutput2"></canvas>
+                    </div>
+
+
+                </div>
+                <div class="output">
+                    <button id="button">Change</button>
+
+                    <div class="output-out">
+                        <canvas id="canvasOutput"></canvas>
+                        <canvas id="canvasOutputaa"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="all3">
+                <h4>Example Image</h4>
+                <div class="all4">
+                    <img src="Picture1.jpg" alt="" class="small-img">
+                    <img src="xe.png" alt="" class="small-img">
+                    <img src="soc.jpg" alt="" class="small-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    </script>
+    <script src="index.js"></script>
+    <!-- <script async src="opencv.js" type="text/javascript"></script> -->
+    <script async src="https://docs.opencv.org/3.4/opencv.js" type="text/javascript">
+    </script>
+</body>
+
+</html>
